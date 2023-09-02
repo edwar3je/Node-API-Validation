@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "isbn": {"type": "string"},
+        "amazon_url": {"type": "string"},
+        "author": {"type": "string"},
+        "language": {"type": "string"},
+        "pages": {"type": "integer", "minimum": 1},
+        "publisher": {"type": "string"},
+        "title": {"type": "string"},
+        "year": {"type": "integer", "minimum": 1, "maximum": 2023}
+    },
+    "required": ["isbn", "amazon_url", "author", "language", "pages", "publisher", "title", "year"]
+}

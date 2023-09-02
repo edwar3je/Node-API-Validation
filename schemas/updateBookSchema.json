@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "minProperties": 1,
+    "maxProperties": 7,
+    "properties": {
+        "amazon_url": {"type": "string"},
+        "author": {"type": "string"},
+        "language": {"type": "string"},
+        "pages": {"type": "integer", "minimum": 1},
+        "publisher": {"type": "string"},
+        "title": {"type": "string"},
+        "year": {"type": "integer", "minimum": 1, "maximum": 2023}
+    },
+    "additionalProperties": false
+}
